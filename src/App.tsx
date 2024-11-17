@@ -9,7 +9,7 @@ import TopPopularJobs from './components/TopPopularJobs'
 
 function App() {
   return (
-    <main className="w-full flex-1">
+    <main className="relative w-full flex-1">
       <Header />
       <Banner />
       <Categories />

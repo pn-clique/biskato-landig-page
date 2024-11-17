@@ -1,4 +1,6 @@
 import biskatoIcon from '../assets/icon.png'
+import { RegisterDialog } from './RegisterModal'
+import { Button } from './ui/button'
 
 export default function Header() {
   return (
@@ -11,12 +13,9 @@ export default function Header() {
           width={48}
           height={48}
         />
-        <button
-          type="button"
-          className="border-2 border-violet-600 text-violet-600 h-12 px-4 font-medium rounded-md hover:bg-violet-600 hover:text-white transition-all active:scale-95"
-        >
-          Criar conta
-        </button>
+        <RegisterDialog>
+          <Button className="bg-violet-600 text-white">Criar conta</Button>
+        </RegisterDialog>
       </div>
       <div className="border-b border-t border-zinc-300">
         <div className="px-4 py-2 flex justify-start items-center gap-8 max-w-[1400px] mx-auto">
