@@ -12,7 +12,7 @@ export default function RegisterNow() {
         <RegisterDialog>
           <button
             type="button"
-            className="bg-white text-violet-600 h-12 rounded-md px-6 mt-8"
+            className=" text-white h-12 rounded-md px-6 mt-8 bg-green-500 hover:bg-green-400 font-bold"
           >
             Comece agora
           </button>

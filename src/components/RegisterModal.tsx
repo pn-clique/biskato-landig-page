@@ -54,7 +54,7 @@ export function RegisterDialog({ children }: RegisterDialogProps) {
           <Button
             type="submit"
             variant={'outline'}
-            className="border-violet-600 text-violet-600"
+            className="border-violet-600 text-violet-600 "
           >
             Criar conta
           </Button>
