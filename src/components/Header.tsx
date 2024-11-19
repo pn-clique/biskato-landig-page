@@ -9,9 +9,9 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 w-full bg-white z-50 shadow-md">
-      {/* Header principal */}
+     
       <div className="flex items-center justify-between p-8 max-w-[1400px] mx-auto">
-        {/* Logo */}
+  
         <img
           src={biskatoIcon}
           alt="Biskato Icon"
@@ -20,14 +20,14 @@ export default function Header() {
           height={48}
         />
 
-        {/* Botão Criar Conta */}
+      
         <RegisterDialog>
           <Button className="hidden md:block bg-violet-600 text-white">
             Criar conta
           </Button>
         </RegisterDialog>
 
-        {/* Botão do Menu Mobile */}
+        
         <button
           type="button"
           className="block md:hidden text-2xl text-zinc-700"
@@ -37,24 +37,24 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Menu Mobile Lateral */}
+     
       <nav
         className={`fixed top-0 left-0 h-full w-3/4 bg-white shadow-md transform ${
           isMenuOpen ? 'translate-x-0' : '-translate-x-full'
         } transition-transform duration-300 z-50 md:hidden`}
       >
         <div className="p-4">
-          {/* Botão Criar Conta no Menu Mobile */}
+         
           <RegisterDialog>
             <Button className="block w-full bg-violet-600 text-white mb-4">
               Criar conta
             </Button>
           </RegisterDialog>
 
-          {/* Links do Menu */}
+          
           <ul className="space-y-4">
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg ">
                 Design Gráfico
               </button>
             </li>
@@ -97,7 +97,7 @@ export default function Header() {
         </div>
       </nav>
 
-      {/* Menu Desktop */}
+      
       <div className="hidden md:block border-b border-t border-zinc-300">
         <div className="px-4 py-2 flex justify-start items-center gap-8 max-w-[1400px] mx-auto">
           <button
