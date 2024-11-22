@@ -6,6 +6,8 @@ import Header from './components/Header'
 import HowUsWork from './components/HowUsWork'
 import RegisterNow from './components/RegisterNow'
 import TopPopularJobs from './components/TopPopularJobs'
+import CategoriesPopulations from './components/CategoriesPopulations'
+import Questions from './components/Questions'
 
 function App() {
   return (
@@ -16,8 +18,11 @@ function App() {
       <TopPopularJobs />
       <About />
       <HowUsWork />
+      <Questions />
       <RegisterNow />
+      <CategoriesPopulations />
       <Footer />
+
     </main>
   )
 }

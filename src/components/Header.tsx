@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import biskatoIcon from '../assets/icon.png';
-import { RegisterDialog } from './RegisterModal';
 import { Button } from './ui/button';
 import { FiMenu, FiX } from 'react-icons/fi';
+
+
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,21 +12,27 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 w-full bg-white z-50 shadow-md">
      
       <div className="flex items-center justify-between p-8 max-w-[1400px] mx-auto">
-  
-        <img
-          src={biskatoIcon}
-          alt="Biskato Icon"
-          className="w-12 h-12"
-          width={48}
-          height={48}
-        />
+
+
+     
+
+       
+          <img
+            src={biskatoIcon}
+            alt="Biskato Icon"
+            className="w-12 h-12"
+            width={48}
+            height={48}
+            
+          />
+      
 
       
-        <RegisterDialog>
-          <Button className="hidden md:block bg-violet-600 text-white">
-            Criar conta
-          </Button>
-        </RegisterDialog>
+      
+        <Button className="hidden md:block bg-violet-600 text-white">
+          Instalar o app
+        </Button>
+        
 
         
         <button
@@ -45,51 +52,51 @@ export default function Header() {
       >
         <div className="p-4">
          
-          <RegisterDialog>
-            <Button className="block w-full bg-violet-600 text-white mb-4">
-              Criar conta
-            </Button>
-          </RegisterDialog>
+        
+           <Button className="block w-full bg-violet-600 text-white mb-4">
+            Instalar o app
+          </Button>
+        
 
           
           <ul className="space-y-4">
             <li>
-              <button className="text-zinc-600 font-medium text-lg ">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Design Gráfico
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Programação e Tecnologia
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Marketing Digital
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Redação e Tradução
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Música e Áudio
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Negócios
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Finanças
               </button>
             </li>
             <li>
-              <button className="text-zinc-600 font-medium text-lg">
+              <button className="text-zinc-600 font-medium text-lg border-b-2 border-transparent hover:border-violet-600">
                 Serviços de IA
               </button>
             </li>

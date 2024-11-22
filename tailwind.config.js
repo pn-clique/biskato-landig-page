@@ -4,6 +4,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      width: {
+        '170': '170%', // Classe personalizada para largura de 170%
+      },
       backgroundImage: {
         'hero-pattern': "url('../assets/bg-find-expert-1400-x2.png')",
       },
