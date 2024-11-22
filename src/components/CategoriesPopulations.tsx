@@ -4,12 +4,12 @@ import React from "react";
 type Category = string;
 
 const categories: Category[] = [
-  "Agente de Dropshipping",
-  "Treinamento de Fortnite",
-  "Serviços Online",
-  "Moderador do Discord",
-  "Comprar Twitch Overlay",
-  "Treinamento de League Of Legends",
+  "Eletrecidade",
+  "Canalização",
+  "Frio",
+  "Traças",
+  "Maquilhagem",
+  "E outros serviços presenciais",
   "FiveM Mlo",
   "Treinamento de Valorant",
   "Modelo Vtuber",
