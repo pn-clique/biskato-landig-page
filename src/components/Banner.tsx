@@ -12,7 +12,7 @@ export default function Banner() {
         <span className="text-violet-400 font-bold">serviço freelance</span>{' '}
         ideal imediatamente
       </h1>
-      <div className="max-w-[600px] w-full flex flex-col md:flex-row justify-center items-center gap-4">
+      <div className="max-w-[600px] hidden w-full flex-col md:flex-row justify-center items-center gap-4">
         <input
           ref={searchRef.current}
           type="search"
